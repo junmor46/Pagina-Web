@@ -1,0 +1,36 @@
+@keyframes fondo{
+  0%{background-color: red;}
+  40%{background-color: blue;}
+  80%{background-color: orange;}
+  90%{background-color: cyan;}
+  100%{background-color: purple}
+}
+body{
+    animation: fondo;
+    animation-name: fondo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+}
+
+.container{
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 10%;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    color: white;
+}  
+
+.input-field{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.btn{
+    border-radius: 10px;
+}
+ form{
+     color: white;
+ }
+ 
